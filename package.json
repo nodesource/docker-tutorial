@@ -1,0 +1,12 @@
+{
+  "name": "docker-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Will Blankenship <wblankenship@nodesource.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^4.4.1",
+    "retry": "^0.7.0"
+  }
+}
