@@ -1,0 +1,12 @@
+version: "2"
+services:
+  db:
+    image: postgres
+  myapp:
+    build: .
+    links:
+      - db
+    environment:
+      - PGHOST=db
+      - PGDATABASE=postgres
+      - PGUSER=postgres
