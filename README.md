@@ -9,7 +9,6 @@ So you have Node apps, and you want to use them with Docker. This repository is 
 docker-compose up
 // Watch the logs or run
 docker-compose logs myapp
-
 ```
 
 ## Authors and Contributors
